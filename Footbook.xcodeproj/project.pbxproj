@@ -22,6 +22,10 @@
 		81B5DDE118EC96ED0080CA8F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B5DDC518EC96EC0080CA8F /* CoreData.framework */; };
 		81B5DDE918EC96ED0080CA8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81B5DDE718EC96ED0080CA8F /* InfoPlist.strings */; };
 		81B5DDEB18EC96ED0080CA8F /* FootbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B5DDEA18EC96ED0080CA8F /* FootbookTests.m */; };
+		81B5DDF518EC97230080CA8F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B5DDF418EC97230080CA8F /* Storyboard.storyboard */; };
+		81B5DDFE18EC9E6F0080CA8F /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B5DDFD18EC9E6F0080CA8F /* Profile.m */; };
+		81B5DE0118ECA27C0080CA8F /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B5DE0018ECA27C0080CA8F /* FriendsViewController.m */; };
+		81B5DE0418ECA3660080CA8F /* OtherProfilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B5DE0318ECA3660080CA8F /* OtherProfilesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		81B5DDE618EC96ED0080CA8F /* FootbookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FootbookTests-Info.plist"; sourceTree = "<group>"; };
 		81B5DDE818EC96ED0080CA8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81B5DDEA18EC96ED0080CA8F /* FootbookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootbookTests.m; sourceTree = "<group>"; };
+		81B5DDF418EC97230080CA8F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		81B5DDFC18EC9E6F0080CA8F /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		81B5DDFD18EC9E6F0080CA8F /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		81B5DDFF18ECA27C0080CA8F /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		81B5DE0018ECA27C0080CA8F /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		81B5DE0218ECA3660080CA8F /* OtherProfilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherProfilesViewController.h; sourceTree = "<group>"; };
+		81B5DE0318ECA3660080CA8F /* OtherProfilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherProfilesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +95,11 @@
 		81B5DDB318EC96EC0080CA8F = {
 			isa = PBXGroup;
 			children = (
+				81B5DDFF18ECA27C0080CA8F /* FriendsViewController.h */,
+				81B5DE0018ECA27C0080CA8F /* FriendsViewController.m */,
+				81B5DDF418EC97230080CA8F /* Storyboard.storyboard */,
+				81B5DE0218ECA3660080CA8F /* OtherProfilesViewController.h */,
+				81B5DE0318ECA3660080CA8F /* OtherProfilesViewController.m */,
 				81B5DDC718EC96EC0080CA8F /* Footbook */,
 				81B5DDE418EC96ED0080CA8F /* FootbookTests */,
 				81B5DDBE18EC96EC0080CA8F /* Frameworks */,
@@ -119,6 +135,8 @@
 				81B5DDD118EC96EC0080CA8F /* AppDelegate.m */,
 				81B5DDD618EC96EC0080CA8F /* Images.xcassets */,
 				81B5DDD318EC96EC0080CA8F /* Footbook.xcdatamodeld */,
+				81B5DDFC18EC9E6F0080CA8F /* Profile.h */,
+				81B5DDFD18EC9E6F0080CA8F /* Profile.m */,
 				81B5DDC818EC96EC0080CA8F /* Supporting Files */,
 			);
 			path = Footbook;
@@ -230,6 +248,7 @@
 			files = (
 				81B5DDCC18EC96EC0080CA8F /* InfoPlist.strings in Resources */,
 				81B5DDD718EC96EC0080CA8F /* Images.xcassets in Resources */,
+				81B5DDF518EC97230080CA8F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B5DE0118ECA27C0080CA8F /* FriendsViewController.m in Sources */,
 				81B5DDD218EC96EC0080CA8F /* AppDelegate.m in Sources */,
 				81B5DDD518EC96EC0080CA8F /* Footbook.xcdatamodeld in Sources */,
+				81B5DE0418ECA3660080CA8F /* OtherProfilesViewController.m in Sources */,
+				81B5DDFE18EC9E6F0080CA8F /* Profile.m in Sources */,
 				81B5DDCE18EC96EC0080CA8F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
